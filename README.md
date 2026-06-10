@@ -2,12 +2,21 @@
 
 A sandbox physics simulator. Mess around, find out.
 
-Built with LibGDX.
+Built with LibGDX 1.12.1.
 
 ## Requirements
 
-- Java
-- LibGDX
+- JDK 8+
+- LibGDX 1.12.1 (fetched via Gradle)
+
+## Running
+
+```
+cd test
+./gradlew desktop:run
+```
+
+On Windows use `gradlew.bat desktop:run`.
 
 ## License
 
